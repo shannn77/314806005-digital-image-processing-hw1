@@ -7,12 +7,12 @@
 
 ---
 ##  專案結構
-├── readimage.py # 影像讀取與中心 10x10 輸出
-├── point_ops.py # 點運算
-├── resample.py # 重採樣 (Nearest Neighbor / Bilinear)
-├── data/ # 輸入影像 (需自行放置)
-└── out/ # 輸出結果 (程式自動產生)
-
+├── readimage.py # 影像讀取與中心 10x10 輸出  
+├── point_ops.py # 點運算  
+├── resample.py # 重採樣 (Nearest Neighbor / Bilinear)  
+├── data/ # 輸入影像 (需自行放置)  
+└── out/ # 輸出結果 (程式自動產生)  
+ 
 ## ⚙️ 環境需求
 - Python 3.8+
 - [NumPy](https://numpy.org/)  
