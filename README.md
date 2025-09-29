@@ -23,35 +23,35 @@
 
 1. 影像讀取
    
-python readimage.py --data data --out-previews out/previews --out-centers out/centers
+   python readimage.py --data data --out-previews out/previews --out-centers out/centers
 
-輸出：
-灰階預覽圖
-中心 10x10 子區塊 CSV
+   輸出：
+   灰階預覽圖  
+   中心 10x10 子區塊 CSV  
 
 2. 點運算
 
-python point_ops.py --data data --out out/point_ops
+   python point_ops.py --data data --out out/point_ops  
 
-輸出：
+   輸出：  
 
-{檔名}_log.png
-{檔名}_negative.png
-{檔名}_gamma_grid.png
-{檔名}_overview.png
+   {檔名}_log.png  
+   {檔名}_negative.png  
+   {檔名}_gamma_grid.png  
+   {檔名}_overview.png  
+  
 
+3. 重採樣  
 
-3. 重採樣
+   python resample.py --data data --out out/resample  
 
-python resample.py --data data --out out/resample
+   輸出:(包含範例)  
 
-輸出:(包含範例)
-
-512x512 → 128x128
-512x512 → 32x32（再放大顯示）
-32x32 → 512x512
-512x512 → 1024x512
-128x128 → 256x512
+   512x512 → 128x128  
+   512x512 → 32x32（再放大顯示）  
+   32x32 → 512x512  
+   512x512 → 1024x512  
+   128x128 → 256x512  
 
 
 ## 備註
